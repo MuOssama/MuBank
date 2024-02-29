@@ -1,1 +1,2 @@
-emailPassword = 'ivqk aihw lvwq qacc'
+emailPassword = '**** **** **** ****'
+#type the access password given by gmail
