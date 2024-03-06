@@ -1,5 +1,5 @@
 # MuBank
->>An embedded linux project based on raspberry pi 3b+
+# >An embedded linux project based on raspberry pi 3b+
 # Bank Embedded Linux Project Documentation
 
 ## Overview
@@ -9,6 +9,9 @@ This project implements a basic bank system using embedded Linux on a Raspberry 
 1. **main.py**: This is the main script of the project. It sets up GPIO pins, initializes user data, creates a GUI, and provides functions for user interaction.
 2. **emails.py**: This file contains the `Users` class, which manages user data and transactions. It also provides methods for withdrawing, depositing, updating balance, and updating transaction history.
 3. **sendingEmails.py**: This file contains the `sendEmail` function, which sends transaction notifications to users via email using SMTP.
+4. **Passwords.py**: this file contains password from Gmail please dont forgot to add your password [see the demo:](https://www.youtube.com/watch?v=g_j6ILT-X0k)
+5. **userData.txt** this is the database for users and trancections
+6. **Userdata.py**: this is file to only put users in userData.txt rather than typing them manually
 
 ## Hardware Requirements
 - Raspberry Pi (any model with GPIO pins)
@@ -47,12 +50,15 @@ This project implements a basic bank system using embedded Linux on a Raspberry 
   - Contains the `sendEmail` function for sending transaction notifications via email.
 
 ## Testing
-- Unit tests can be written for the `Users` class and the email notification functionality.
-- GUI testing can be done manually to ensure proper functionality and user experience.
+- GUI testing done manually to ensure proper functionality and user experience.
+  
+## GPIO Pinout (Raspberry Pi 3+)
+- `Getinfo_led_pin`: GPIO 20 (pin 38)
+- `deposit_led_pin`: GPIO 21 (pin 40)
+- `withdraw_led_pin`: GPIO 26 (pin 37)
+- `login_led_pin`: GPIO 16 (pin 36)
+- `Buzzer_pin`: GPIO 19 (pin 35)
 
-## Deployment
-- Once tested, the project can be deployed on the Raspberry Pi for actual use.
-- Ensure proper security measures are in place, such as encrypted communication and secure user data storage.
-
-## Conclusion
-This bank embedded Linux project provides a basic banking system that can be further expanded and customized. It demonstrates the use of GPIO pins for hardware interaction, GUI development with tkinter, and email notification functionality in an embedded Linux environment.
+This bank embedded Linux project provides a basic banking system that can be further expanded and customized. 
+It demonstrates the use of GPIO pins for hardware interaction\
+GUI development with tkinter, and email notification functionality in an embedded Linux environment.
