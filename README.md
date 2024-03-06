@@ -1,5 +1,5 @@
 # MuBank
-# >An embedded linux project based on raspberry pi 3b+
+>An embedded linux project based on raspberry pi 3b+
 # Bank Embedded Linux Project Documentation
 
 ## Overview
