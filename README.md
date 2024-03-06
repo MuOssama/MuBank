@@ -3,7 +3,11 @@
 # Bank Embedded Linux Project Documentation
 
 ## Overview
-This project implements a basic bank system using embedded Linux on a Raspberry Pi. It allows users to authenticate, check their balance, deposit, and withdraw money. It also sends transaction notifications to users via email.
+This project implements a basic bank system using embedded Linux on a Raspberry Pi. It allows users to authenticate,
+check their balance, deposit, and withdraw money. It also sends transaction notifications to users via email.\
+This bank embedded Linux project provides a basic banking system that can be further expanded and customized. \
+It demonstrates the use of GPIO pins for hardware interaction\
+GUI development with tkinter, and email notification functionality in an embedded Linux environment.
 
 ## Files
 1. **main.py**: This is the main script of the project. It sets up GPIO pins, initializes user data, creates a GUI, and provides functions for user interaction.
@@ -59,6 +63,3 @@ This project implements a basic bank system using embedded Linux on a Raspberry 
 - `login_led_pin`: GPIO 16 (pin 36)
 - `Buzzer_pin`: GPIO 19 (pin 35)
 
-This bank embedded Linux project provides a basic banking system that can be further expanded and customized. 
-It demonstrates the use of GPIO pins for hardware interaction\
-GUI development with tkinter, and email notification functionality in an embedded Linux environment.
